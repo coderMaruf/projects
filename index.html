@@ -4,28 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Form</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
-      <form action="#">
-        <div class="title">
-          <h1>Login Form</h1>
+      <div class="profile">
+        <div class="profile-img">
+          <img src="./profile.jpg" alt="Profile" />
+          <span>PRO</span>
         </div>
-        <div class="input-field">
-          <label for="email">Email</label>
-          <input type="email" required />
-          <label for="password">Password</label>
-          <input type="password" required />
+        <div class="profile-description">
+          <h1>Abdullah Al Maruf</h1>
+          <p>Front End Web Developer</p>
         </div>
-        <a href="#" class="forgot">Forgot Password</a>
-        <button type="button">Login</button>
-        <div class="signup">
-          <span>Not a member?</span>
-          <a href="#">Sign up now</a>
+      </div>
+      <div class="timeline">
+        <div class="status">
+          <p>Projects</p>
+          <span><b>17</b></span>
         </div>
-      </form>
+        <hr />
+        <div class="status">
+          <p>Followers</p>
+          <span><b>232</b></span>
+        </div>
+        <hr />
+        <div class="status">
+          <p>Following</p>
+          <span><b>342</b></span>
+        </div>
+      </div>
+      <div class="skills">
+        <p>
+          <span>Skills :</span>
+          HTML, CSS, JavaScript, jQuery, Bootstrap, WordPress, Scss and others
+        </p>
+      </div>
+      <div class="social">
+        <h2>Follow me</h2>
+        <div class="icons">
+          <a href="https://www.facebook.com/abdullahalmaruf21">
+            <img src="./svg/facebook-logo-2019.svg" alt="" />
+          </a>
+          <a href="https://www.behance.net/md_marufsarker">
+            <img src="./svg/behance.svg" alt="" />
+          </a>
+          <a href="https://github.com/marufjs">
+            <img src="./svg/github.svg" alt="" />
+          </a>
+          <a
+            href="https://youtube.com/channel/UCPH3m-f9gmleXkq33G9CZKQ?sub_confirmation=1"
+          >
+            <img src="./svg/youtube.svg" alt="" />
+          </a>
+          <a href="https://twitter.com/md_marufsarker">
+            <img src="./svg/twitter.svg" alt="" />
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
