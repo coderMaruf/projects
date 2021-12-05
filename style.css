@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap'); */
+
+/* Available Fonts */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.card {
+  height: 580px;
+  width: 400px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.card:hover {
+  transform: rotate3d(1, 1, 1, 10deg);
+}
+.card .image img {
+  width: 380px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 10px 10px 0 0;
+  filter: contrast(70%);
+  transition: all 0.5s;
+}
+.card .image img:hover {
+  filter: contrast(100%);
+}
+.card .description p.time {
+  font-size: 16px;
+  color: dodgerblue;
+  text-align: center;
+}
+.card .description h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.card .description p.details {
+  text-align: center;
+  color: #555;
+  margin: 20px 0;
+}
+.card .status {
+  background-color: rgb(233, 58, 93);
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.card .status .mms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100px;
+}
+.card .status .mms h3 {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.card .status .mms p {
+  font-weight: 300;
+}
+::selection {
+  color: #000;
+  background-color: dodgerblue;
+}
