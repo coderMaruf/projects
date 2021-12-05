@@ -13,3 +13,9 @@
 #### Custom Scrollbar Design Using HTML and CSS
 
 #### [Tutorial Link](https://youtu.be/frAYF4rSh30) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Source Code](https://github.com/coderMaruf/projects/tree/custom-scrollbar-design-1)
+
+---
+
+#### Animated Card Design Using HTML and CSS
+
+#### [Tutorial Link](https://youtu.be/4VrtMZ-o_kE) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Source Code](https://github.com/coderMaruf/projects/tree/animated-card-design-1)
