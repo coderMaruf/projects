@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #eeeeee;
+  --text-color: #4c4c4c;
+  --card-bg: #4054b2;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: 'Titillium Web', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header {
+  text-align: center;
+  padding: 50px 0;
+  color: var(--text-color);
+}
+.header h1 {
+  padding: 20px 0;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+.header p {
+  line-height: 1.7;
+  font-size: 18px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+.active {
+  background-color: var(--card-bg);
+}
+.card .price {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.active .price,
+.active .details {
+  color: #fff;
+}
+.card .price h2 {
+  font-size: 50px;
+}
+.card .price span {
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+}
+.card .price span::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  width: 70px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: dodgerblue;
+}
+.card .details {
+  padding: 0 0 20px 0;
+}
+.card .details ul li span {
+  padding: 0 10px;
+  font-size: 18px;
+}
+.card .button,
+.active .button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card a {
+  color: var(--card-bg);
+  border: 2px solid var(--card-bg);
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.card a:hover {
+  border: none;
+  background-color: var(--card-bg);
+  color: #fff;
+  padding: 12px 22px;
+}
+.active a {
+  color: var(--card-bg);
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+.active a:hover {
+  border: 2px solid #fff;
+}
+.check {
+  color: green;
+}
+.uncheck {
+  color: red;
+}
