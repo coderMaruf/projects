@@ -4,6 +4,10 @@
 
 #### [Tutorial Link](https://youtu.be/YtYf633F27M) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Source Code](https://github.com/coderMaruf/projects/tree/login-form-design-1)
 
+#### Login Form Design using HTML and CSS 2
+
+#### [Tutorial Link](https://youtu.be/LsXoV_IeGLg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Source Code](https://github.com/coderMaruf/projects/tree/login-form-design-2)
+
 ---
 
 ### 🥇Profile Card Design
