@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+}
+.container {
+  width: 50vw;
+  height: 60vh;
+  margin: 100px auto;
+}
+.container .main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 72px;
+  padding-bottom: 112px;
+}
+.main .left-part {
+  width: 580px;
+  padding-right: 32px;
+  margin: 40px 0;
+}
+
+.main .left-part img {
+  height: 106px;
+  margin: -28px;
+}
+.main .left-part h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+form {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+form input[type='email'] {
+  width: 100%;
+}
+form input[type='password'] {
+  width: 80%;
+}
+::placeholder {
+  font-size: 16px;
+}
+form .email,
+form .password {
+  outline: 1px solid #d8dde4;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+form .login {
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 13px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  background-color: #1877f2;
+  width: 100%;
+  transition: all 0.5s;
+}
+form .login:hover {
+  background-color: #166fe5;
+}
+form .forgottenPassword {
+  color: #1877f2;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 13px;
+}
+.hr {
+  background-color: #d2dae2;
+  margin: 5px 0;
+  height: 1px;
+}
+form .create {
+  text-align: center;
+  color: #fff;
+  background-color: #42b72a;
+  width: 230px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px auto 0 auto;
+  transition: all 0.4s;
+}
+form .create:hover {
+  background-color: #36a420;
+  border-color: #36a420;
+}
+.right-part .createPage {
+  margin: 20px 0;
+  text-align: center;
+}
+.right-part .createPage a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+.footer-area {
+  margin-top: 50px;
+}
+.footer-area ul li {
+  display: inline;
+}
+.footer-area ul li a,
+.footer-area span {
+  text-decoration: none;
+  color: #959292;
+  font-size: 13px;
+}
+.footer-area ul li.active a {
+  color: #959292;
+}
+.footer-area .top ul li {
+  margin-right: 8px;
+}
+.footer-area .middle ul li {
+  margin-right: 10px;
+}
+.footer-area .top ul li:last-child,
+.footer-area .bottom ul li:last-child {
+  margin-right: 0;
+}
+.footer-area .top ul li:last-child a {
+  border: 1px solid #999;
+  padding: 0 5px;
+}
+.footer-area .bottom {
+  margin-top: 20px;
+}
+.footer-area .hr {
+  border-bottom: 1px solid #dddfe2;
+  width: 100%;
+  margin: 5px 0;
+}
+.play {
+  padding: 3px;
+}
